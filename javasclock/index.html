@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <title>Kodluyoruz Javascript Saat Ödevi</title>
+  </head>
+  <body >
+    <div class="renkCubugu">
+      <div onclick="renkDegistir('renkGri')" class="gri kutu">
+          <a id="renkGri">#567786</a>
+      </div>
+      <div onclick="renkDegistir('renkSari')" class="sari kutu">
+          <a id="renkSari">#9c595c</a>
+      </div>
+      <div onclick="renkDegistir('renkTurkuaz')" class="turkuaz kutu">
+          <a id="renkTurkuaz">#82826d</a>
+      </div>
+      <div onclick="renkDegistir('renkKirmizi')" class="kirmizi kutu">
+          <a id="renkKirmizi">#6d826f</a>
+      </div>
+      <div onclick="renkDegistir('renkAqua')" class="aqua kutu">
+          <a id="renkAqua">#cbc1b0</a>
+      </div>
+      <div onclick="renkDegistir('renkYesil')" class="yesil kutu">
+          <a id="renkYesil">#72667c</a>
+      </div>
+      <div onclick="renkDegistir('renkKahverengi')" class="kahverengi kutu">
+          <a id="renkKahverengi">#b39a8c</a>
+      </div>
+      <div onclick="renkDegistir('renkMor')" class="mor kutu">
+          <a id="renkMor">#8d8595</a>
+      </div>
+      <script>
+        function renkDegistir(id){
+            document.body.style.background=document.
+            getElementById(id).innerHTML;
+        }
+    </script>
+  </div>
+    <div class="text-center">
+      <img
+        src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+        alt=""
+        class="rounded"
+      />
+      <div class="text1 text-center">
+        Merhaba, <strong><span id="myName"></span></strong>! Hoş geldin!
+      </div>
+      <div id="myClock" class="clock" onload="showTime()"></div>
+      <div class="text2 text-center">
+        tarihinde
+        <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+        Javascript bölümü 1. Ödevindesiniz.
+      </div>
+    </div>
+    <script src="js/clock.js"></script>
+  </body>
+</html>

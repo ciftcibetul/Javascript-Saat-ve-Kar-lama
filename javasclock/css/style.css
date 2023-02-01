@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  .renkCubugu{
+    width: 60%;
+    height: 20px;
+    margin: auto;
+  }
+
+  .kutu{
+    width: 12%;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+#renkSari,#renkGri,#renkTurkuaz,#renkKirmizi,#renkAqua,#renkYesil,#renkKahverengi,#renkMor {
+    display: none;
+} 
+ 
+  .gri{
+    background-color:#567786;
+  }
+  
+  .sari{
+    background-color: #9c595c;
+  }
+
+  .turkuaz{
+    background-color: #82826d;
+  }
+
+  .kirmizi{
+    background-color: #6d826f;
+  }
+
+  .aqua{
+    background-color: #cbc1b0;
+  }
+
+  .yesil{
+    background-color: #72667c;
+  }
+
+  .kahverengi{
+    background-color: #b39a8c;
+  }
+
+  .mor{
+    background-color: #8d8595;
+  }
+  
+  .clock {
+    position: relative;
+    text-align: center;
+    color: #acb0a1;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+  }
+  
+  .text1 {
+    position: relative;
+    text-align: center;
+    color: #acb0a1;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+  }
+  
+  .text2 {
+    position: relative;
+    text-align: center;
+    color: #acb0a1;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  
+   img {
+       margin-top: 120px;
+       width: 17%;
+  }
+  
